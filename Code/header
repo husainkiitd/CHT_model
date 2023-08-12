@@ -1,0 +1,38 @@
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+c	DECLARATION OF VARIABLES
+c
+        implicit double precision (a-h,o-z)
+c
+	parameter (if=100,jf=100,kf=100)
+	common /vector/ deltax(if),deltay(jf),deltaz(kf),x(if),y(jf),
+     &                t1(if,jf,kf),zz(kf),yy(jf),z(kf),xx(if),
+     &                w1(if,jf,kf),u2(if,jf,kf),u1(if,jf,kf),
+     &                p(if,jf,kf),t2(if,jf,kf),v1(if,jf,kf),
+     &                pp(if,jf,kf),ww(if,jf,kf),uu(if,jf,kf),
+     &                tt(if,jf,kf),v2(if,jf,kf),deltazR(kf),
+     &		          w2(if,jf,kf),vv(if,jf,kf),ire,jre,kre,ita,
+     &		          zR(kf),zzR(kf),tR1(if,jf,kf),tR2(if,jf,kf),
+     &		          TF_G1(if,jf,kf),TF_G2(if,jf,kf),
+     &		          ts1(if,jf,kf),ts2(if,jf,kf),t3(if,jf,kf),
+     &		          residtF(if,jf,kf)
+c
+	common /fix/ stab
+c
+	common /vari/ iim,jim,kim,irest,imax,jmax,kmax,itamax,
+     &               itaa,isum,iti,itt,iwrite2,
+     &               iwrite,itime,istop,ittmax,jttmax,kttmax,ittmin,
+     &               jttmin,kttmin,xL_ref,T_C,T_H,x_Nu,ittS,
+     &               ittmaxS,jttmaxS,kttmaxS,iim1,iim2,jim1,jim2,
+     &               kim1,kim2,iTrans
+c
+	common /varr/ epsi,stat,beta0,pr,al,dtmax,dxmin,dymin,epsi2,
+     &               dzmin,deltat,deltt,dt,rev,stab_temp,dtm,
+     &               reci_PrRe_fld,reci_PrRe,zeit,zeit1,Ra,ept,
+     &               divmax,alphat,dalt,win,tin,twall,stab_t,Ra_F,
+     &               delttS,dtS,eptS,stab_tempS,xAlpha_s,xkr,xkr_f,
+     &               xks,T_floor,T_Roof,T_North,T_South,T_East,T_West,
+     &               T_Ceiling,TheetaO_E,TheetaO_W,TheetaO_N,TheetaO_S,
+     &               Theeta_Roof,f_wall,f_roof,xkr_Roof,xAlpha_s_Roof,
+     &               f_roof_original
+c
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc

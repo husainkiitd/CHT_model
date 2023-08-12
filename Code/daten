@@ -1,0 +1,7 @@
+0,0.5,1000000,0.5,1e-4,1.7,0.71,0.5,0.05,
+3.6,1.6507e-5,0.721,34.38,57.5,42.44,40.44,
+41.19,45.06,35.5,4.38e-4,0.1025,5000000
+
+irest,stab,itamax,epsi,stat,beta0,pr,alphat,stab_temp,
+xL_ref,x_Nu,xks,T_floor,T_Roof,T_North,T_South,
+T_East,T_West,T_Ceiling,f_wall,f_roof,iTrans   
